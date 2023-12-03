@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game-Life (Jesus Morillo)</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">GAMES-LIFE</a>
+        <ul class="navlist">
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">NOSOTROS</a></li>
+            <li><a href="#hero">PERSONAJES</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+        </ul>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="hero-text">
+            
+            <h4>Por Jesus Morillo</h4>
+            <h1>IRELIA</h1>
+            <P> La invasión de Jonia a manos de Noxus produjo muchos héroes, pero ninguno fue tan improbable como la joven Irelia de Navori. Entrenada en las ancestrales danzas de su región, adaptó su arte para la guerra y ahora usa sus movimientos refinados y llenos de gracia para controlar un arsenal de cuchillas letales. </P>
+            <a href="#">Mas informacion</a>
+            <a href="#" class="ctaa"><i class="ri-play-fill"></i>Mirar Gameplay</a>
+
+        </div>
+
+        <div class="hero-img">
+            <img src="img/personaje.png">
+
+
+        </div>
+
+    </section>
+
+    <div class="icons">
+        <a href="#"><i class="ri-instagram-line"></i></a>
+        <a href="#"><i class="ri-youtube-line"></i></a>
+        <a href="#"><i class="ri-dribbble-line"></i></a>
+
+    </div>
+
+    <div class="scroll-down">
+        <a href="#"><i class="ri-arrow-down-s-fill"></i></a>
+
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const menu = document.getElementById('menu-icon');
+            const navlist = document.querySelector('.navlist');
+    
+            if (menu) {
+                menu.addEventListener('click', () => {
+                    navlist.classList.toggle('open');
+                });
+            }
+        });
+    </script>
+
+
+
+
+
+    <!--sention 2-->
+    <section class="hero2" >
+        <div class="hero2-text">
+            
+            <h4>Por Jesus Morillo</h4>
+            <h1>IRELIA LUZ</h1>
+            <P> Aunque este tema está relacionado con el anterior, se merece su propia sección. Vinculamos la historia de El alzamiento de los Centinelas a la progresión del evento para que sientan que formaban parte de la lucha contra Viego. </P>
+            <a href="#">Mas informacion</a>
+            <a href="#" class="ctaa"><i class="ri-play-fill"></i>Mirar Gameplay</a>
+
+        </div>
+
+        <div class="hero2-img">
+            <img src="img/personaje2.png">
+
+
+        </div>
+
+    
+        <div class="scroll2-down">
+            <a href="#"><i class="ri-arrow-down-s-fill"></i></a>
+    
+        </div>
+
+    </section>
+
+    <!--sention 2-->
+
+
+    <section id="contacto">
+        <div class="fila">
+            <div class="col">
+                <h1>GAMES-LIFE</h1>
+            </div>
+            <div class="col">
+                <h3>Menú</h3>
+                <a href="#hero">Inicio</a>
+                
+            </div>
+            <div class="col">
+                <h3>Creador</h3>
+                <a href="#">Jesus Morillo</a>
+                
+            </div>
+            <div class="col">
+                <h3>Social Media</h3>
+                <div class="media">
+                    <i class="fa-brands fa-twitter"></i> <a href="#">Twitter</a>
+                </div>
+                <div class="media">
+                    <i class="fa-brands fa-instagram"></i> <a href="#">Instagram</a>
+                </div>
+            </div>
+            <div class="col">
+                <h3>Contacto</h3>
+                <input type="text" placeholder="Tu correo">
+                <input type="submit" class="enviar">
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
